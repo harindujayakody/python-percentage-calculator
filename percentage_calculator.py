@@ -7,8 +7,8 @@ def calculate_percentage(value, percentage):
 def display_credits():
     current_year = datetime.datetime.now().year
     print("\n\033[1;35m=================================================")
-    print(f"Made with ❤️ by Author - © {current_year}")
-    print("Check out more: [https://your-website-link.com]")
+    print(f"Made with ❤️ by Harindu Jayakody - © {current_year}")
+    print("Check out more: [https://codekits.info]")
     print("=================================================\033[0m\n")
 
 def display_hero_section():
@@ -27,7 +27,7 @@ def display_hero_section():
     print("\033[1;36m=========================================\033[0m\n")  # End with colored line
 
 def open_website():
-    webbrowser.open("https://your-website-link.com")
+    webbrowser.open("https://codekits.info")
 
 def main():
     display_hero_section()
